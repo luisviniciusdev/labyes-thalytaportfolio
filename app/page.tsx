@@ -2,6 +2,7 @@ import { Skills } from "../components/Skills";
 import { Header } from "../components/Header";
 import { About } from "../components/About";
 import { Hero } from "../components/Hero"
+import { Recomendations } from "../components/Recomendations";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero/>
       <Skills/>
       <About/>
+      <Recomendations/>
     </div>
   );
 }
