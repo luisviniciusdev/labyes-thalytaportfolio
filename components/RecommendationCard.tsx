@@ -13,7 +13,7 @@ interface RecommendationCardProps {
 
 export function RecommendationCard({ text, imgUrl, imgFallback, recommenderName, recommenderPosition, linkedinUrl }: RecommendationCardProps) {
     return (
-        <Card className="p-10 border-[var(--primary-color)] rounded-lg gap-10 max-w-full">
+        <Card className="p-10 border-[var(--primary-color)] rounded-lg gap-10 max-w-[400px]">
             <p>{text}</p>
             <Link href={linkedinUrl} target="_blank" className="hover:bg-white rounded-lg">
                 <div className="flex flex-row gap-5 items-center">
