@@ -1,7 +1,8 @@
-import { Skills } from "../components/Skills";
 import { Header } from "../components/Header";
-import { About } from "../components/About";
 import { Hero } from "../components/Hero"
+import { Skills } from "../components/Skills";
+import { About } from "../components/About";
+import { Projects } from "@/components/Projects";
 import { Recomendations } from "../components/Recomendations";
 import { Footer } from "../components/Footer";
 
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero/>
         <Skills/>
         <About/>
+        <Projects/>
         <Recomendations/>
       </main>
       <Footer/>
