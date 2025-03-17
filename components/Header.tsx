@@ -17,9 +17,14 @@ export function Header() {
                         <Link href="#recomendacoes"><li className="cursor-pointer text-[var(--heading-color)] hover:text-[var(--primary-color)] transition-colors duration-300">Recomendações</li></Link>
                     </ul>
                 </nav>
-
-                <Button variant="outline" className="cursor-pointer border-[var(--primary-color)] text-[var(--primary-color)] 
-  hover:bg-[var(--primary-color)] hover:text-white transition-colors duration-300">Entre em contato</Button>
+                <Link href="mailto:example@email.com" target="_blank" rel="noopener noreferrer">
+                    <Button 
+                        variant="outline" 
+                        className="cursor-pointer border-[var(--primary-color)] text-[var(--primary-color)] 
+                        hover:bg-[var(--primary-color)] hover:text-white transition-colors duration-300">
+                        Entre em contato
+                    </Button>
+                </Link>      
         </Card>
     )
 }

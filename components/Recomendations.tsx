@@ -2,7 +2,7 @@ import { RecommendationCard } from "./RecommendationCard";
 
 export function Recomendations() {
     return (
-        <section className="py-30 px-20 bg-[var(--bg-shade)]">
+        <section id="recomendacoes" className="py-30 px-20 bg-[var(--bg-shade)]">
             <h2 className="text-5xl font-bold">Recomendações</h2>
             <div className="mt-20 flex flex-row justify-between gap-8">
                 <RecommendationCard
