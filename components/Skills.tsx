@@ -9,7 +9,7 @@ export function Skills() {
                 <SkillCard 
                     icon={Code} 
                     title="Desenvolvimento Web" 
-                    description="Na LabYes, atuei no desenvolvimento front-end, garantindo interfaces responsivas, acessíveis e otimizadas." 
+                    description="No Lab Yes!, atuei como desenvolvedora front-end, garantindo interfaces responsivas, acessíveis e otimizadas." 
                 />
 
                 <SkillCard 
@@ -20,8 +20,8 @@ export function Skills() {
 
                 <SkillCard 
                     icon={Users} 
-                    title="Coordenação de Sprints" 
-                    description="Lidereis sprints ágeis coordenando projetos culturais, organizando entregas dentro dos prazos e objetivos estratégicos." 
+                    title="Planejamento Ágil" 
+                    description="Liderei sprints ágeis em projetos culturais, coordenando entregas dentro dos prazos e alinhadas aos objetivos estratégicos." 
                 />
             </div>
         </section>
